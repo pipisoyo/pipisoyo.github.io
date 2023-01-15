@@ -1,0 +1,15 @@
+p{
+    color:red;
+     width:300px
+ }
+
+/**esto es un comentario*/
+
+ h1{
+            width:300px;
+            border:1px transparent black;
+            padding: 4px;
+            font-weight: bold;
+            color:grey
+}
+  
