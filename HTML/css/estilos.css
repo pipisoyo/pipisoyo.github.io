@@ -1,3 +1,4 @@
+body{background-color: white;}
 p{
     color:red;
      width:300px
@@ -12,4 +13,6 @@ p{
             font-weight: bold;
             color:grey
 }
-  
+
+#demo{color: blue;
+width: 25px};
