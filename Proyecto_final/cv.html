@@ -9,17 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/f9a201c368.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
+   
     <h1>Curriculum vitae</h1>
 
     <div class="contenedor"> <!--cuerpo superior CV-->
         <img src="" alt="perfil de usuario" id="foto">
-        <h2>Nombre: <span class="info" id="nombre"></span><span class="info" id=apellido></span></h2> 
+        <h2><span class="info" id="nombre"></span>  <span class="info" id=apellido></span></h2> 
         <div>
-            <p>Correo : <span class="info" id="correo"></span></p>
-            <p>Telefono: <span class="info" id="telefono"></span></p>
+            <p><i class="fa-solid fa-envelope"></i> <span class="info" id="correo"></span></p>
+            <p><i class="fa-solid fa-phone"></i> <span class="info" id="telefono"></span></p>
         </div>
     </div>
 
@@ -27,10 +29,10 @@
         <button id="boton">Generar Usuario</button>
     </div> este boton no lo voy a utilizar-->
 
-    
+<section>
     <div class="contenedor2">
         <div class="boton">
-            <button id="boton1">Informacion basica</button>
+            <button id="boton1">Informacion basica </button>
         </div>
         <div class="boton">
             <button id="boton2">Informacion academica</button>
@@ -39,58 +41,69 @@
             <button id="boton3">Experiencia laboral</button>
         </div>
         <div class="boton">
-            <button id="boton4">Aptitudes</button>
+            <button id="boton4">Espectativa</button>
         </div>
     </div>
 
     <div class="contenedor3" id="contenedor3">
-        <h2>Informacion basica: <span id="nombre"></span></h2> 
+        <h3>Informacion basica : <span id="nombre"></span></h3>
+        <br> 
         <div>
             <p>Fecha de nacimento : <span id="fecha_nacimento"></span></p>
             <p>Edad: <span id="edad"></span> años</p>
             <p>Domicilio actual:  <span id="localizacion_calle"></span> <span id="localizacion_numero"></span> , <span id="localizacion_ciudad"></span> , <span id="localizacion_provincia"> </span> , <span id="localizacion_pais"></span></p>
             <p>Nacionalidad :  <span id="nacionalidad"></span>
-            <p>Numero de celular :  <span id="telefono_movil"></span>
+            <p>Numero de celular :  <span id="telefono_movil"></span> <i class="fa-brands fa-whatsapp"></i>
         </div>        
     </div>
 
     <div class="contenedor3" id="contenedor4">
-        <h2>Informacion academica <span id="nombre"></span></h2> 
+        <h3>Informacion academica :  <span id="nombre"></span></h3> 
+        <br>
         <div>
-            <p>Fecha de nacimento : <span id="fecha_nacimento"></span></p>
-            <p>Edad: <span id="edad"></span> años</p>
-            <p>Domicilio actual:  <span id="localizacion_calle"></span> <span id="localizacion_numero"></span> , <span id="localizacion_ciudad"></span> , <span id="localizacion_provincia"> </span> , <span id="localizacion_pais"></span></p>
-            <p>Nacionalidad :  <span id="nacionalidad"></span>
-            <p>Numero de celular :  <span id="telefono_movil"></span>
+            <p><i class="fa-solid fa-bookmark"></i> Bachiller en producción de bienes y servicios.</p>
+            <p><i class="fa-solid fa-bookmark"></i> Técnico en instalaciones electromecánicas y neumáticas.</p>
+            <p><i class="fas fa-university"></i> Escuela de Educación Técnica N°1 “Nuestras señora de las mercedes”(2004).</p>
+            <br>
+            <p><i class="fa-solid fa-bookmark"></i> Lic. En sistema de Información (Incompleto, hasta tercer año).</p>
+            <p><i class="fas fa-university"></i> Sstema de Información (Incompleto, hasta tercer año)(2004).</p>
+            <br>
+            <p><i class="fa-solid fa-bookmark"></i> Técnico en instalaciones eléctricas industriales.</p>
+            <p><i class="fas fa-university"></i> Centro de formación laboral N°401.</p>
+            <br>
+            <p><i class="fa-solid fa-bookmark"></i> Curso: Desarrollo de aplicaciones móviles.</p>
+            <p><i class="fas fa-university"></i> UTN (2016)</p>
+            <br>
+            <p><i class="fa-solid fa-bookmark"></i> Curso de reparación de celulares.</p>
+            <p><i class="fas fa-university"></i> Eddis Educativa (2022).</p>
+            
+
         </div>        
     </div>
     
     <div class="contenedor3" id="contenedor5">
-        <h2>Experiencia laboral <span id="nombre"></span></h2> 
+        <h3>Experiencia laboral : <span id="nombre"></span></h3> 
+        <br>
         <div>
-            <p>Fecha de nacimento : <span id="fecha_nacimento"></span></p>
-            <p>Edad: <span id="edad"></span> años</p>
-            <p>Domicilio actual:  <span id="localizacion_calle"></span> <span id="localizacion_numero"></span> , <span id="localizacion_ciudad"></span> , <span id="localizacion_provincia"> </span> , <span id="localizacion_pais"></span></p>
-            <p>Nacionalidad :  <span id="nacionalidad"></span>
-            <p>Numero de celular :  <span id="telefono_movil"></span>
+            <p><i class="fa-solid fa-briefcase"></i> SanSur(Fábrica de cocinas) (2005-2007)</p>
+            <br>
+            <p><i class="fa-solid fa-briefcase"></i> Ayudante de electricista (2007-2008)</p>
+            <br>
+            <p><i class="fa-solid fa-briefcase"></i>     Taller metalúrgico (2008-2010)</p>
+            <br>
+            <p><i class="fa-solid fa-shop"></i> Comercio Propio(Almacen)(2010-Actualidad)</p>
         </div>        
     </div>
 
     <div class="contenedor3" id="contenedor6">
-        <h2>Aptitudes <span id="nombre"></span></h2> 
+        <h3>Espectativa :<span id="nombre"></span></h3> 
+        <br>
         <div>
-            <p>Fecha de nacimento : <span id="fecha_nacimento"></span></p>
-            <p>Edad: <span id="edad"></span> años</p>
-            <p>Domicilio actual:  <span id="localizacion_calle"></span> <span id="localizacion_numero"></span> , <span id="localizacion_ciudad"></span> , <span id="localizacion_provincia"> </span> , <span id="localizacion_pais"></span></p>
-            <p>Nacionalidad :  <span id="nacionalidad"></span>
-            <p>Numero de celular :  <span id="telefono_movil"></span>
+            <p>Se aspira a adquirir puesto de trabajo donde pueda contribuir con el crecimiento laboral y profesional de la empresa, y personal.  Presento predisposición de aprendizaje y continuidad laboral, comprometiéndome en el cumplimiento de tareas asignadas con entusiasmo, responsabilidad, buena presencia y profesionalismo.</p>
         </div>        
     </div>
+</section>
 
-
-
-
- 
   
     <script src="app.js"></script>  
 </body>

@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0px auto;
     box-sizing: border-box;
 }
 
@@ -19,24 +19,25 @@ h1 {
 }
 
 .contenedor {
-    width: -webkit-fill-available;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 98%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 50px;
     padding: 20px;
     box-shadow: 2px 2px 7px rgb(187, 198, 214);
     border-radius: 10px;
-    margin: 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 1000px;
+   
    }
 .info {
     font-family: 'Source Serif Pro', serif;
 }   
 .contenedor2 {
-    width: 35%;
-    max-width: 1200px;
-    margin-left: 10px;
+    width: 29%;
+    max-width: 290px;
+    margin: 1%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 50px;
@@ -44,34 +45,36 @@ h1 {
     box-shadow: 2px 2px 7px rgb(187 198 214);
     border-radius: 10px;
     float: left;
+    height: 330px;
     
 }
 .contenedor3 {
     display: none;
-    width: 60%;
-    max-width: 1200px;
-    margin-right: 10px;
+    width: 68%;
+    max-width: 680px;
+    margin: 1%;
     background-color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     padding: 20px;
     box-shadow: 2px 2px 7px rgb(187 198 214);
     border-radius: 10px;
-    float: right;
+    float: left;
+    height: 330px;
+    overflow-y: scroll;
 }
 
-@media (max-width: 600px) {
-    .contenedor {
-        width: 90%;
-    }
-}
+
 
 h2,
 p {
     color: rgb(17, 22, 37);
 }
-
 h2 span,
+p span {
+    color: rgb(0, 0, 0);
+}
+h3 span,
 p span {
     color: rgb(119, 137, 172);
 }
@@ -100,4 +103,8 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+section{
+    margin: 10%;
+    margin-top: 2%;
 }
