@@ -51,7 +51,7 @@ h1 {
 .contenedor3 {
     display: none;
     width: 68%;
-    max-width: 680px;
+    max-width: 67%;
     margin: 1%;
     background-color: rgb(255, 255, 255);
     text-align: left;
@@ -107,4 +107,13 @@ button:hover {
 section{
     margin: 10%;
     margin-top: 2%;
+}
+@media (max-width: 850px){
+    .contenedor2, .contenedor3{
+        width: 100%;
+        max-width: -webkit-fill-available
+    }
+    
+}
+    
 }
